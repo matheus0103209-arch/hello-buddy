@@ -83,8 +83,8 @@ function Hero() {
             <img
               src={heroDog}
               alt="Golden retriever bem cuidado sentado sobre uma toalha em um salão de banho e tosa"
-              width={1280}
-              height={1536}
+              width={928}
+              height={1152}
               fetchPriority="high"
               className="aspect-[4/5] w-full object-cover object-[30%_center]"
             />
@@ -177,7 +177,7 @@ function About() {
 }
 
 const galleryImages = [
-  { src: heroDog, alt: "Golden retriever após o banho", w: 1280, h: 1536, cls: "row-span-2" },
+  { src: heroDog, alt: "Golden retriever após o banho", w: 928, h: 1152, cls: "row-span-2" },
   { src: catImg, alt: "Gato de pelagem longa descansando sobre uma manta", w: 1024, h: 1024, cls: "" },
   { src: beagleImg, alt: "Beagle enrolado em uma toalha após o banho", w: 1024, h: 1024, cls: "" },
   { src: aboutImg, alt: "Cão de pelagem branca sendo escovado", w: 1024, h: 1280, cls: "col-span-2 lg:col-span-1 lg:row-span-2" },
