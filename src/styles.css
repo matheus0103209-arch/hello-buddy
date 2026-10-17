@@ -56,8 +56,8 @@
   --color-whatsapp: var(--whatsapp);
   --font-display: "Cormorant Garamond", Georgia, serif;
   --font-sans: "Manrope", system-ui, sans-serif;
-  --shadow-soft: var(--shadow-soft);
-  --shadow-lift: var(--shadow-lift);
+  --shadow-soft: var(--elev-soft);
+  --shadow-lift: var(--elev-lift);
   --animate-fade-up: fade-up 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
   @keyframes fade-up {
     from { opacity: 0; transform: translateY(16px); }
@@ -98,8 +98,8 @@
   --input: oklch(0.89 0.015 80);
   --ring: oklch(0.49 0.04 140);
   --whatsapp: oklch(0.52 0.13 150);
-  --shadow-soft: 0 10px 30px -14px oklch(0.27 0.02 80 / 0.22);
-  --shadow-lift: 0 30px 60px -25px oklch(0.27 0.02 80 / 0.35);
+  --elev-soft: 0 10px 30px -14px oklch(0.27 0.02 80 / 0.22);
+  --elev-lift: 0 30px 60px -25px oklch(0.27 0.02 80 / 0.35);
 }
 
 @layer base {
