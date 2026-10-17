@@ -91,7 +91,7 @@ function Hero() {
           </div>
           <div className="absolute -bottom-6 left-6 rounded-2xl bg-card px-6 py-4 shadow-soft sm:left-auto sm:right-8">
             <p className="font-display text-lg">Cães e gatos</p>
-            <p className="text-sm text-muted-foreground">Atendimento com hora marcada</p>
+            <p className="text-sm text-muted-foreground">Banho, tosa e pelagem</p>
           </div>
         </div>
       </div>
