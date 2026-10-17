@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Rules
+- Business data (name, WhatsApp, contact, hours, social, services) lives only in src/config/site.ts — every CTA reads from it so one edit updates the whole site.
